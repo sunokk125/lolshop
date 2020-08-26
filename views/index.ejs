@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/index.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR|Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="wrap">
+    <div id="Home"></div>
+</div>
+</body>
+</html>
+<script type="text/javascript">
+    var session =<%-JSON.stringify(session)%>;
+    console.log(session);
+</script>
+<script src="https://fb.me/react-15.1.0.js"></script>
+<script src="https://fb.me/react-dom-15.1.0.js"></script>
+<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script type="text/babel" src="/javascripts/Menu.jsx"></script>
+<script type="text/babel" src="/javascripts/Home.jsx"></script>

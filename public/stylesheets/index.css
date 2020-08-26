@@ -1,0 +1,69 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Noto Sans KR','Source Sans Pro', sans-serif;
+    color:#f0c479;
+}
+
+#wrap{
+    background:#1d1515;
+    width: 100%;
+    text-align: center;
+}
+
+/* 메뉴 */
+
+.menu{
+    width: 80%;
+    display: inline-block;
+}
+
+.logo{
+    width:50px;
+    height:50px;
+    float: left;
+}
+
+.m_item{
+    display: inline-block;
+}
+
+.m_item li{
+    display: inline-block;
+    margin-left: 100px;
+}
+.menuLink{
+    text-decoration:none;
+    color:#f0c479;
+}
+
+.login{
+    display: inline-block;
+    float: right;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+}
+.loginLink{
+    margin-left: 20px;
+    text-decoration:none;
+    color: #f0c479;
+}
+.loginLink:first-child{
+    margin-right: 20px;
+}
+/* 키 이미지 */
+.keyimage img{
+    width: 100%;
+}
+
+/*CONTENT*/
+
+.item{
+    display: inline-block;
+    width: 19%;
+}
+
+.item img{
+    width: 100%;
+}

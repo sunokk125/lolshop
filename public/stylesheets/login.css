@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#wrap{
+    background: url("/images/bg.jpg") no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 754px;
+}
+
+#loginBox{
+    top: 35%;
+    left: 42%;
+    padding:30px;
+    position: absolute;
+    border: 1px solid #f0c479;
+    background-color: #1d1515;
+    color: #f0c479;
+}
+#loginBox input{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#loginBox .btnLogin{
+    background-color: #1d1515;
+}
